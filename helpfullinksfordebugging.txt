@@ -1,0 +1,5 @@
+https://forums.coronalabs.com/topic/54519-webview-and-composer-scenes-webview-not-being-removed/
+
+https://stackoverflow.com/questions/14057440/corona-attempt-to-concatenate-global-scenename
+
+https://docs.coronalabs.com/api/library/native/newWebView.html

@@ -1,0 +1,15 @@
+-- homepage.lua
+local widget = require "widget";
+
+local webView = native.newWebView( display.contentCenterX, display.contentCenterY, display.contentWidth, display.contentHeight )
+webView:request( "voting_informed_step_1.html", system.ResourceDirectory )
+local backButton = widget.newButton{}
+
+local function setBackButton()
+	backButton.anchorX = 0
+	backButton.anchorY = 0
+	backButton.x = 250
+	backButton.y = 650
+end
+
+setBackButton()
